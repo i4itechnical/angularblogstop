@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BlogstopmaterialModule } from './blogstopmaterial.module';
+import { BlogstopcoreModule } from './blogstopcore/blogstopcore.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +12,9 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BlogstopmaterialModule,
+    BlogstopcoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
